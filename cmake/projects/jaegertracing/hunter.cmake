@@ -8,9 +8,9 @@ include(hunter_pick_scheme)
 
 hunter_add_version(
     PACKAGE_NAME jaegertracing
-    VERSION "0.4.1"
-    URL "https://github.com/jaegertracing/jaeger-client-cpp/archive/v0.4.1.tar.gz"
-    SHA1 "b398a8174cad9d2e815e2bc9910f75c89e35a46a")
+    VERSION "0.7.0"
+    URL "https://github.com/jaegertracing/jaeger-client-cpp/archive/v0.7.0.tar.gz"
+    SHA1 "0e71d9c237c0d77b6bf5b2294ed32d520d4a6e27")
 
 hunter_cmake_args(jaegertracing CMAKE_ARGS
     BUILD_TESTING=OFF)
